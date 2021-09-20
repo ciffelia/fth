@@ -2,7 +2,9 @@
 
 `fetch` that just works on any modern environments
 
-qfetch is a CommonJS module which exports `fetch`. It uses `node-fetch` on Node.js and native `fetch` on any other environments (e.g. browsers and Deno). This module does *not* include `fetch` polyfill for Internet Explorer.
+qfetch is a CommonJS module which exports `fetch`. It uses `node-fetch` on Node.js and native `fetch` on any other environments (e.g. browsers and Deno).
+
+Note that this module does *not* include `fetch` polyfill for Internet Explorer.
 
 ## Supported environments
 
