@@ -7,7 +7,7 @@ qfetch is a CommonJS module which exports `fetch`. It uses `node-fetch` on Node.
 ## Supported environments
 
 - Node.js (via [node-fetch](https://github.com/node-fetch/node-fetch))
-- Modern browsers and Deno (in particular, any environments which imprements [`globalThis`](https://caniuse.com/mdn-javascript_builtins_globalthis) and [`fetch`](https://caniuse.com/fetch))
+- Modern browsers and Deno (in particular, any environments which imprement [`globalThis`](https://caniuse.com/mdn-javascript_builtins_globalthis) and [`fetch`](https://caniuse.com/fetch))
 
 ## Example
 
