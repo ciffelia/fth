@@ -1,6 +1,6 @@
 {
   "name": "fth",
-  "version": "0.1.0",
+  "version": "1.0.0-alpha.0",
   "description": "fetch that just works on any modern environments",
   "keywords": ["fetch", "http", "request"],
   "license": "MIT",
