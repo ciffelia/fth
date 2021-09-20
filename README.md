@@ -16,6 +16,8 @@ Note that this module does *not* include `fetch` polyfill/ponyfill for legacy br
 
 ## Example
 
+### Node.js
+
 ```js
 const fetch = require('fth')
 const { Response } = fetch
@@ -28,4 +30,15 @@ const main = async () => {
 }
 
 main()
+```
+
+### Deno
+
+```js
+import fetch, { Response } from 'https://esm.sh/fth'
+
+const resp = await fetch('https://example.com/')
+
+console.log(resp instanceof Response)
+console.log(await resp.text())
 ```
