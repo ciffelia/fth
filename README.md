@@ -1,8 +1,8 @@
-# qfetch
+# fth
 
 `fetch` that just works on any modern environments
 
-qfetch is a CommonJS module which exports `fetch`. It uses `node-fetch` on Node.js and native `fetch` on any other environments (e.g. browsers and Deno).
+fth is a CommonJS module which exports `fetch`. It uses `node-fetch` on Node.js and native `fetch` on any other environments (e.g. browsers and Deno).
 
 Note that this module does *not* include `fetch` polyfill/ponyfill for legacy browsers.
 
@@ -14,7 +14,7 @@ Note that this module does *not* include `fetch` polyfill/ponyfill for legacy br
 ## Example
 
 ```js
-const fetch = require('qfetch')
+const fetch = require('fth')
 const { Response } = fetch
 
 const main = async () => {

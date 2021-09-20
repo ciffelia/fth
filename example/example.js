@@ -1,4 +1,4 @@
-const fetch = require('qfetch')
+const fetch = require('fth')
 const { Response } = fetch
 
 const main = async () => {
