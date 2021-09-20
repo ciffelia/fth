@@ -1,5 +1,8 @@
 # fth
 
+[![npm](https://img.shields.io/npm/v/fth?logo=npm&style=flat-square)](https://www.npmjs.com/package/fth)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+
 `fetch` that just works on any modern environments
 
 fth is a CommonJS module which exports `fetch`. It uses `node-fetch` on Node.js and native `fetch` on any other environments (e.g. browsers and Deno).
