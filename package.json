@@ -2,12 +2,18 @@
   "name": "fth",
   "version": "1.0.0",
   "description": "fetch that just works on any modern environments",
-  "keywords": ["fetch", "http", "request"],
+  "keywords": [
+    "fetch",
+    "http",
+    "request"
+  ],
   "license": "MIT",
   "author": "Ciffelia <mc.prince.0203@gmail.com> (https://ciffelia.com/)",
   "homepage": "https://github.com/ciffelia/fth",
   "repository": "github:ciffelia/fth",
-  "files": ["/src"],
+  "files": [
+    "/src"
+  ],
   "exports": {
     "node": "./src/index.node.js",
     "default": "./src/index.default.js"
