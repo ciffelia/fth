@@ -10,10 +10,20 @@ declare const _Fth_Request: typeof Request
 declare const _Fth_Response: typeof Response
 declare const _Fth_Headers: typeof Headers
 
+declare type _Fth_RequestInit = RequestInit
+declare type _Fth_ResponseInit = ResponseInit
+declare type _Fth_HeadersInit = HeadersInit
+declare type _Fth_BodyInit = BodyInit
+
 declare module "fth" {
   export const fetch: typeof _FthFetch
   export const Request: typeof _Fth_Request
   export const Response: typeof _Fth_Response
   export const Headers: typeof _Fth_Headers
   export default fetch
+
+  export type RequestInit = _Fth_RequestInit
+  export type ResponseInit = _Fth_ResponseInit
+  export type HeadersInit = _Fth_HeadersInit
+  export type BodyInit = _Fth_BodyInit
 }
