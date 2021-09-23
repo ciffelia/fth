@@ -5,15 +5,15 @@
 /// <reference lib="DOM" />
 /// <reference lib="DOM.Iterable" />
 
-declare const _fetch: typeof fetch;
-declare const _Request: typeof Request;
-declare const _Response: typeof Response;
-declare const _Headers: typeof Headers;
+declare const _Fth_fetch: typeof fetch;
+declare const _Fth_Request: typeof Request;
+declare const _Fth_Response: typeof Response;
+declare const _Fth_Headers: typeof Headers;
 
 declare module "fth" {
-  export const fetch: typeof _fetch;
-  export const Request: typeof _Request;
-  export const Response: typeof _Response;
-  export const Headers: typeof _Headers;
+  export const fetch: typeof _FthFetch;
+  export const Request: typeof _Fth_Request;
+  export const Response: typeof _Fth_Response;
+  export const Headers: typeof _Fth_Headers;
   export default fetch;
 }
