@@ -17,13 +17,13 @@ if (typeof globalThis !== 'undefined') {
   throw new Error('Unable to locate global object')
 }
 
-module.exports = exports = g.fetch;
+module.exports = exports = g.fetch
 
 // Needed for TypeScript and Webpack.
 if (g.fetch) {
-  exports.default = g.fetch.bind(g);
+  exports.default = g.fetch.bind(g)
 }
 
-exports.Headers = g.Headers;
-exports.Request = g.Request;
-exports.Response = g.Response;
+exports.Headers = g.Headers
+exports.Request = g.Request
+exports.Response = g.Response
